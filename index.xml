@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Test Site</title>
-    <link>http://example.org/</link>
+    <link>https://adriaandejonge.github.io/test-travis/</link>
     <description>Recent content on My New Test Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://adriaandejonge.github.io/test-travis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>John &amp; Caroline</title>
-      <link>http://example.org/smallgroup/john-and-caroline/</link>
+      <link>https://adriaandejonge.github.io/test-travis/smallgroup/john-and-caroline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/smallgroup/john-and-caroline/</guid>
+      <guid>https://adriaandejonge.github.io/test-travis/smallgroup/john-and-caroline/</guid>
       <description>Smallgroup John &amp;amp; Caroline host a group on Sunday evenings at 19:30.
 Location: Al Ghurair</description>
     </item>
     
     <item>
       <title>One more</title>
-      <link>http://example.org/smallgroup/one-more/</link>
+      <link>https://adriaandejonge.github.io/test-travis/smallgroup/one-more/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/smallgroup/one-more/</guid>
+      <guid>https://adriaandejonge.github.io/test-travis/smallgroup/one-more/</guid>
       <description>To do</description>
     </item>
     
     <item>
       <title>Tim &amp; his wife</title>
-      <link>http://example.org/smallgroup/tim-and-his-wife/</link>
+      <link>https://adriaandejonge.github.io/test-travis/smallgroup/tim-and-his-wife/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/smallgroup/tim-and-his-wife/</guid>
+      <guid>https://adriaandejonge.github.io/test-travis/smallgroup/tim-and-his-wife/</guid>
       <description>TO do</description>
     </item>
     
