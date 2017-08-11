@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Test Site"
+theme = "ananke"
+
+[params]
+    #mainSections = "elements"
+
+[permalinks]
+  smallgroup = "/smallgroup/:slug/"    

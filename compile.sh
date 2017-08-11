@@ -1,8 +1,7 @@
 #!/bin/bash
 
 echo "COMPILING"
-echo $(pwd)
-echo $(ls)
+./content-dump
 echo "COMPILE" > out/output.txt
 echo $(ls out/)
 echo "DONE"
