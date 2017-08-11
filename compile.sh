@@ -3,5 +3,5 @@
 echo "COMPILING"
 ./content-dump
 ./hugo
-mv public out
+mv public/* out/
 echo "DONE"
