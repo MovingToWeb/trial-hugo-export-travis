@@ -2,6 +2,6 @@
 
 echo "COMPILING"
 ./content-dump
-echo "COMPILE" > out/output.txt
-echo $(ls out/)
+./hugo
+mv public out
 echo "DONE"

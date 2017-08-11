@@ -5,7 +5,8 @@ before_install:
 
 before_script:
     - curl -O https://storage.googleapis.com/contentful-dump/content-dump
-    - chmod 755 content-dump
+    - curl -O https://storage.googleapis.com/contentful-dump/hugo
+    - chmod 755 content-dump hugo
 
 script: bash ./deploy.sh
 env:
