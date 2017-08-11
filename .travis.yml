@@ -1,7 +1,13 @@
 language: bash
 
-before_script:
-    - curl -L "http://downloads.sourceforge.net/shunit2/shunit2-2.0.3.tgz" | tar zx
+before_install:
+    - openssl aes-256-cbc -K $encrypted_2f005ed6e83e_key -iv $encrypted_2f005ed6e83e_iv -in mykey.enc -out mykey -d
 
-script:
-    - bash equality_test.sh
+#before_script:
+#    - curl -L "http://downloads.sourceforge.net/shunit2/shunit2-2.0.3.tgz" | tar zx
+
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "2f005ed6e83e"
+  - COMMIT_AUTHOR_EMAIL: "adriaandejonge@gmail.com"

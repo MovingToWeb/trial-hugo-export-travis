@@ -1,0 +1,1 @@
+echo COMPILE > out/output.txt
