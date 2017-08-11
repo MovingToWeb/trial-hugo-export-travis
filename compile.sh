@@ -1,1 +1,1 @@
-echo COMPILE > out/output.txt
+echo "COMPILE" > out/output.txt
