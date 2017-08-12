@@ -1,6 +1,6 @@
 baseURL = "https://adriaandejonge.github.io/test-travis/"
 languageCode = "en-us"
-title = "My New Test Site"
+title = "Test Site Global Title"
 theme = "ananke"
 
 [params]
