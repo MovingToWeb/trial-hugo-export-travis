@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "COMPILING"
-./content-dump
+./contentful-hugo
 ./hugo
 mv public/* out/
 echo "DONE"

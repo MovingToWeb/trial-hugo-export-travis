@@ -4,9 +4,9 @@ before_install:
     - openssl aes-256-cbc -K $encrypted_2f005ed6e83e_key -iv $encrypted_2f005ed6e83e_iv -in mykey.enc -out mykey -d
 
 before_script:
-    - curl -O https://storage.googleapis.com/contentful-dump/content-dump
-    - curl -O https://storage.googleapis.com/contentful-dump/hugo
-    - chmod 755 content-dump hugo
+    - curl -OL https://github.com/adriaandejonge/contentful-hugo/releases/download/0.2/contentful-hugo_0.2_Linux-ARM64.tar.gz
+    - curl -OL https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.tar.gz
+    - chmod 755 contentful-hugo hugo
 
 script: bash ./deploy.sh
 env:
