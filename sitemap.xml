@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://adriaandejonge.github.io/test-travis/testmodel/182d9zz4yyciiygkwis8ec/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adriaandejonge.github.io/test-travis/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adriaandejonge.github.io/test-travis/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adriaandejonge.github.io/test-travis/smallgroup/jaideep-and-jyoti/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adriaandejonge.github.io/test-travis/smallgroup/jim-and-jane/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adriaandejonge.github.io/test-travis/smallgroup/joe-and-joanne/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adriaandejonge.github.io/test-travis/smallgroup/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adriaandejonge.github.io/test-travis/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adriaandejonge.github.io/test-travis/testmodel/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
