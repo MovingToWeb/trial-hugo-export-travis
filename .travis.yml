@@ -6,6 +6,8 @@ before_install:
 before_script:
     - curl -OL https://github.com/adriaandejonge/contentful-hugo/releases/download/0.2/contentful-hugo_0.2_Linux-ARM64.tar.gz
     - curl -OL https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.tar.gz
+    - tar -xzvf contentful*.tar.gz
+    - tar -xzvf hugo*.tar.gz
     - chmod 755 contentful-hugo hugo
 
 script: bash ./deploy.sh
