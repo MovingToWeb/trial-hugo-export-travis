@@ -1,36 +1,139 @@
-{{ $featured_image := .Param "featured_image" | default "images/gohugo-default-sample-hero-image.jpg" }}
-{{ if $featured_image }}
-  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-  {{ $featured_image := (trim $featured_image "/") | absURL }}
-  <header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
-    <div class="bg-black-60">
-      {{ partial "site-navigation.html" .}}
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          {{ .Params.mainHeader  | default .Site.Title }}
-        </h1>
-        {{ with .Params.description }}
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            {{ . }}
-          </h2>
-        {{ end }}
-      </div>
-    </div>
-  </header>
-{{ else }}
-  <header>
-    <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
-      {{ partial "site-navigation.html" . }}
-      <div class="tc-l pv3 ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          {{ .Title | default .Site.Title }}
-        </h1>
-        {{ with .Params.description }}
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-            {{ . }}
-          </h2>
-        {{ end }}
-      </div>
-    </div>
-  </header>
-{{ end }}
+ <!-- Sidebar Navigation -->
+ <div id="js-header" class="u-header u-header--side"
+ data-header-position="left"
+ data-header-breakpoint="lg">
+<div class="u-header__sections-container g-bg-white g-brd-right--lg g-brd-gray-light-v5 g-py-10 g-py-40--lg g-px-14--lg">
+<div class="u-header__section u-header__section--light">
+<nav class="navbar navbar-toggleable-md">
+ <div class="js-mega-menu container">
+   <!-- Responsive Toggle Button -->
+   <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-right-0" type="button"
+           aria-label="Toggle navigation"
+           aria-expanded="false"
+           aria-controls="navBar"
+           data-toggle="collapse"
+           data-target="#navBar">
+     <span class="hamburger hamburger--slider">
+       <span class="hamburger-box">
+         <span class="hamburger-inner"></span>
+       </span>
+     </span>
+   </button>
+   <!-- End Responsive Toggle Button -->
+
+   <!-- Logo -->
+   <a href="index.html" class="navbar-brand g-mb-40--lg">
+     <img src="images/logo.png" alt="Image Description">
+   </a>
+   <!-- End Logo -->
+
+   <!-- Navigation -->
+   <div class="collapse navbar-collapse align-items-center flex-sm-row g-mt-20 g-mt-0--lg g-mb-40" id="navBar">
+     <ul class="navbar-nav ml-auto text-uppercase g-font-weight-600 u-sub-menu-v1">
+
+       <li class="nav-item active g-my-5">
+         <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
+       </li>
+
+
+       <li class="nav-item hs-has-sub-menu g-my-5">
+         <a href="#" class="nav-link" id="nav-link-1"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="nav-submenu-1">About Us </a>
+
+         <!-- Submenu -->
+         <ul class="hs-sub-menu list-unstyled" id="nav-submenu-1"
+             aria-labelledby="nav-link-1">
+           <li><a href="#">New Here?</a></li>
+           <li><a href="#">Times & Locations</a></li>
+           <li><a href="#">Our Beliefs</a></li>
+           <li><a href="#">Our Covenant</a></li>
+           <li><a href="#">Our Elders</a></li>
+           <li><a href="#">Our Staff</a></li>
+           <li><a href="#">Our Deacons</a></li>
+           <li><a href="#">The Gospel</a></li>
+
+         </ul>
+         <!-- End Submenu -->
+       </li>
+
+
+
+
+       <li class="nav-item hs-has-sub-menu g-my-5">
+         <a href="#" class="nav-link" id="nav-link-1"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="nav-submenu-1">Ministries</a>
+
+         <!-- Submenu -->
+         <ul class="hs-sub-menu list-unstyled" id="nav-submenu-1"
+             aria-labelledby="nav-link-1">
+           <li><a href="#">Membership</a></li>
+           <li><a href="#">Equipping Ministry</a></li>
+           <li><a href="#">Family Ministry</a></li>
+           <li><a href="#">Community Groups</a></li>
+           <li><a href="#">Pastoral Intership</a></li>
+
+         </ul>
+         <!-- End Submenu -->
+       </li>
+
+
+
+       <li class="nav-item hs-has-sub-menu g-my-5">
+         <a href="#" class="nav-link" id="nav-link-1"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="nav-submenu-1">Resources</a>
+
+         <!-- Submenu -->
+         <ul class="hs-sub-menu list-unstyled" id="nav-submenu-1"
+             aria-labelledby="nav-link-1">
+           <li><a href="#">Sermons</a></li>
+           <li><a href="#">Blog</a></li>
+           <li><a href="#">Calendar</a></li>
+           <li><a href="#">Music</a></li>
+           <li><a href="#">Articles</a></li>
+           <li><a href="#">Sermon Schedule</a></li>
+
+         </ul>
+         <!-- End Submenu -->
+       </li>
+
+       <li class="nav-item g-my-5">
+         <a href="#" class="nav-link">Give</a>
+       </li>
+
+     </ul>
+   </div>
+   <!-- End Navigation -->
+
+   <div class="text-center hidden-lg-down">
+     <ul class="list-inline g-mb-10">
+       <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+         <a href="#" class="g-color-main g-color-primary--hover">
+           <i class="fa fa-facebook"></i>
+         </a>
+       </li>
+       <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
+         <a href="#" class="g-color-main g-color-primary--hover">
+           <i class="fa fa-instagram"></i>
+         </a>
+       </li>
+       <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+         <a href="#" class="g-color-main g-color-primary--hover">
+           <i class="fa fa-twitter"></i>
+         </a>
+       </li>
+     </ul>
+
+     <p class="mb-0">2017 &copy; All Rights Reserved.</p>
+   </div>
+ </div>
+</nav>
+</div>
+</div>
+</div>
+<!-- End Sidebar Navigation -->
