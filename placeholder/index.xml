@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Placeholders on Test Site Global Title</title>
+    <link>https://adriaandejonge.github.io/test-travis/placeholder/</link>
+    <description>Recent content in Placeholders on Test Site Global Title</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://adriaandejonge.github.io/test-travis/placeholder/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://adriaandejonge.github.io/test-travis/placeholder/1cap6aewqkwq0cksa2gyo6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adriaandejonge.github.io/test-travis/placeholder/1cap6aewqkwq0cksa2gyo6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://adriaandejonge.github.io/test-travis/placeholder/4w1puvfkwgckgm2qi8iemy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adriaandejonge.github.io/test-travis/placeholder/4w1puvfkwgckgm2qi8iemy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://adriaandejonge.github.io/test-travis/placeholder/6mdeyv3klieuowakooe60o/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adriaandejonge.github.io/test-travis/placeholder/6mdeyv3klieuowakooe60o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://adriaandejonge.github.io/test-travis/placeholder/wu1kmomxeysauoka6imca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adriaandejonge.github.io/test-travis/placeholder/wu1kmomxeysauoka6imca/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
