@@ -6,37 +6,9 @@
     <description>Recent content on Test Site Global Title</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://adriaandejonge.github.io/test-travis/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title></title>
-      <link>https://adriaandejonge.github.io/test-travis/testmodel/182d9zz4yyciiygkwis8ec/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/testmodel/182d9zz4yyciiygkwis8ec/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://adriaandejonge.github.io/test-travis/placeholder/1cap6aewqkwq0cksa2gyo6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/placeholder/1cap6aewqkwq0cksa2gyo6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://adriaandejonge.github.io/test-travis/placeholder/4w1puvfkwgckgm2qi8iemy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/placeholder/4w1puvfkwgckgm2qi8iemy/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title></title>
@@ -45,51 +17,6 @@
       
       <guid>https://adriaandejonge.github.io/test-travis/placeholder/6mdeyv3klieuowakooe60o/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://adriaandejonge.github.io/test-travis/placeholder/wu1kmomxeysauoka6imca/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/placeholder/wu1kmomxeysauoka6imca/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About Us</title>
-      <link>https://adriaandejonge.github.io/test-travis/menugroup/4sw4pphbla2iyommms8acg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/menugroup/4sw4pphbla2iyommms8acg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Give</title>
-      <link>https://adriaandejonge.github.io/test-travis/menugroup/v3bzisxuomgmuos6yemcc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/menugroup/v3bzisxuomgmuos6yemcc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Home</title>
-      <link>https://adriaandejonge.github.io/test-travis/menugroup/1scjzynjku8ioqkugy4amk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/menugroup/1scjzynjku8ioqkugy4amk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jaideep &amp; Jyoti</title>
-      <link>https://adriaandejonge.github.io/test-travis/smallgroup/jaideep-and-jyoti/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/smallgroup/jaideep-and-jyoti/</guid>
-      <description>To do, test.</description>
     </item>
     
     <item>
@@ -109,33 +36,6 @@
       <guid>https://adriaandejonge.github.io/test-travis/smallgroup/joe-and-joanne/</guid>
       <description>Smallgroup John &amp;amp; Caroline host a group on Sunday evenings at 19:30.
 Location: Al Ghurair</description>
-    </item>
-    
-    <item>
-      <title>Main Menu</title>
-      <link>https://adriaandejonge.github.io/test-travis/menu/4ltxe8aw9qm4kseuaoa4g4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/menu/4ltxe8aw9qm4kseuaoa4g4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ministries</title>
-      <link>https://adriaandejonge.github.io/test-travis/menugroup/4gpxh0769o6maucq8mgoya/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/menugroup/4gpxh0769o6maucq8mgoya/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>https://adriaandejonge.github.io/test-travis/menugroup/mujzmiwvig8wqm6iqqksu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adriaandejonge.github.io/test-travis/menugroup/mujzmiwvig8wqm6iqqksu/</guid>
-      <description></description>
     </item>
     
   </channel>
