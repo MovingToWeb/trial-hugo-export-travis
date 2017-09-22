@@ -27,16 +27,16 @@
         <!-- Image, Text Block -->
         <div class="row d-flex align-items-lg-center flex-wrap g-mb-60 g-mb-0--lg">
           <div class="col-md-6 col-lg-8">
-            <img class="img-fluid rounded" src="images/img1a.jpg" alt="Image Description">
+            <img class="img-fluid rounded" src="{{ .Params.firstPicture }}" alt="Image Description">
           </div>
           <div class="col-md-6 col-lg-4">
             <div class="g-mt-minus-30 g-mt-0--md g-ml-minus-100--lg">
               <div class="g-mb-20">
-                <h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4">Gospel</h2>
-                <p class="g-font-size-16">Consectetur adipiscing elit. Mauris condimentum iaculis lectus, eu consectetur nisl fermentum et. Cras pharetra volutpat nibh sit amet feugiat. </p>
+                <h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4">{{ .Params.firstTitle }}</h2>
+                <p class="g-font-size-16">{{ .Params.firstDescription }}</p>
               </div>
               <a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9" href="#">
-                Visit Us
+                  {{ .Params.firstLink }}
                 <span class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-bg-white g-font-size-11 rounded-circle ml-3">
                   <i class="fa fa-angle-right"></i>
                 </span>
@@ -52,17 +52,17 @@
         <div class="row d-flex justify-content-between align-items-lg-center flex-wrap g-mt-minus-50--lg">
           <div class="col-md-6 flex-md-unordered">
             <div class="g-brd-around--md g-brd-10 g-brd-white rounded">
-              <img class="img-fluid w-100 rounded" src="images/img1b.jpg" alt="Image Description">
+              <img class="img-fluid w-100 rounded" src="{{ .Params.secondPicture }}" alt="Image Description">
             </div>
           </div>
           <div class="col-md-6 col-lg-4 ml-auto flex-md-first">
             <div class="g-mt-minus-30 g-mt-0--md g-ml-minus-100--lg">
               <div class="g-mb-20">
-                <h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4">Be Equipped</h2>
-                <p class="g-font-size-16">Consectetur adipiscing elit. Mauris condimentum iaculis lectus, eu consectetur nisl fermentum et. Cras pharetra volutpat nibh sit amet feugiat. </p>
+                <h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4">{{ .Params.secondTitle }}</h2>
+                <p class="g-font-size-16">{{ .Params.secondDescription }}</p>
               </div>
               <a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9" href="#">
-                Learn more about us
+                  {{ .Params.secondLink }}
                 <span class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-bg-white g-font-size-11 rounded-circle ml-3">
                   <i class="fa fa-angle-right"></i>
                 </span>
@@ -342,8 +342,21 @@
 
     <div class="pa3 pa4-ns w-100 w-70-ns center">
 
+        {{ $t := .Site.GetPage "page" "4lTXE8Aw9qm4KSEuaOa4g4.md"  }}
+        <li class="nav-item active g-my-5">
+            <a href="#" class="nav-link">T1: {{ $t.Params.menugroups }} <span class="sr-only">(current)</span></a>
+          </li>
+
+          {{ range $t.Params.menugroups }}
+          TR: {{ . }}
+          {{ end }}
+      
+      {{ with .Site.GetPage "page" "4lTXE8Aw9qm4KSEuaOa4g4" }}
+        <h1>MENU1</h1>
+        {{ end }}
+
       {{ range .Params.listOfSmallgroups }}
-      Tryout: {{ with $.Site.GetPage "page" . }}{{ .Title }}<br>{{ end }}
+      Tryout: {{ with $.Site.GetPage "page" . }}{{ .Params.slug }}<br>{{ end }}
       {{ end }}
 
       {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
